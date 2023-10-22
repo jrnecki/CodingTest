@@ -5,11 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Q12_그래프최단거리 {
+public  class Q12_그래프최단거리 {
     static int n,m,answer=0;
     static ArrayList<ArrayList<Integer>> graph;
     static int [] visited, dis;
-    public void bfs(int v){
+    public static void bfs(int v){
         Queue<Integer> queue = new LinkedList<>();
         visited[v] = 1;
         dis[v] = 0;
