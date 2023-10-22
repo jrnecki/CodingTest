@@ -33,7 +33,8 @@ public class Q11_경로탐색_인접리스트 {
         // 정점 넣을 객체 생성
         for(int i=0; i<n; i++){
             graph.add(new ArrayList<>());
-        for(int i=0; i<m; i++){
+        }
+        for(int j=0; j<m; j++){
             st = new StringTokenizer(br.readLine());
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
@@ -42,7 +43,5 @@ public class Q11_경로탐색_인접리스트 {
         visited[1] =1;
         dfs(1);
         System.out.println(answer);
-    }
-
     }
 }
