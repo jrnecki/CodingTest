@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Q13_섬나라아일랜드 {
+public class Q13_섬나라아일랜드_dfs {
     public static int[] dx={-1, -1, 0, 1, 1, 1, 0, -1};
     public static int[] dy={0, 1, 1, 1, 0, -1, -1, -1};
 
