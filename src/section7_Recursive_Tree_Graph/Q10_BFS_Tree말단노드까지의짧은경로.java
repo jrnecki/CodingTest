@@ -41,6 +41,7 @@ public class Q10_BFS_Tree말단노드까지의짧은경로 {
         tree.root.rt = new Node2(3);
         tree.root.lt.lt = new Node2(4);
         tree.root.lt.rt = new Node2(5);
+
         System.out.println(Q10_BFS_Tree말단노드까지의짧은경로.BFS(tree.root));
     }
 }
