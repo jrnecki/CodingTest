@@ -38,7 +38,5 @@ public class Q5_동전교환 {
                 dfs(l+1,sum+arr[i]);
             }
         }
-
-        ArrayList<Integer> list = new ArrayList<>();
     }
 }
