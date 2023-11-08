@@ -11,11 +11,10 @@ public class Q1_합이같은부분집합 {
     static boolean flag=false;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(br.readLine());
+        n = Integer.parseInt(br.readLine());
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int [] numbers = new int[N];
-        int total = 0;
-        for(int i=0; i<N; i++){
+        int [] numbers = new int[n];
+        for(int i=0; i<n; i++){
             numbers[i] = Integer.parseInt(st.nextToken());
             total+=numbers[i];
         }
@@ -27,7 +26,7 @@ public class Q1_합이같은부분집합 {
         if(flag) return;
         if(sum>total/2) return;
         if(L==n){
-            if(total/2==sum){
+            if((total-sum)==sum){ // total/2 로 하면 홀수일 경우 답이 다르다.
                 answer="YES";
                 flag=true;
             }
