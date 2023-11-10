@@ -19,7 +19,6 @@ public class Q15_피자배달거리 {
          pz = new ArrayList<>();
          hs = new ArrayList<>();
 
-        int board[][] = new int[n][n];
         for(int i=0; i<n; i++){
             st = new StringTokenizer(br.readLine());
             for(int j=0; j<n; j++){
