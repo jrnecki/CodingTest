@@ -3,6 +3,8 @@ package section8_DFS_BFS;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.StringTokenizer;
 
 public class Q6_중복순열 {
@@ -22,6 +24,8 @@ public class Q6_중복순열 {
             arr[i] = Integer.parseInt(st.nextToken());
         }
         dfs(0);
+        Set<Integer> list = new HashSet<>();
+
 
     }
     public static void dfs(int l){

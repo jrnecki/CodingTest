@@ -20,6 +20,7 @@ public class Q5_동전교환 {
         for(int i=0; i<n; i++){
             arr[i] = Integer.parseInt(st.nextToken());
         }
+
         // 최소 동전개수를 사용하기 위해
         // 큰수부터 따져보도록 배열을 내림차순 정렬한다.
         Arrays.sort(arr,Collections.reverseOrder());
