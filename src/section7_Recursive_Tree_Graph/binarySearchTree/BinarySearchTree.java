@@ -6,6 +6,7 @@ class Node{
     public Node(int val){ // 처음 생성될때.
         data = val;
         lt = rt = null;
+
     }
 }
 public class BinarySearchTree {
